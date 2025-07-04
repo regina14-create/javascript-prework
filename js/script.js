@@ -2,21 +2,6 @@ const buttonRock = document.getElementById('button-rock');
 const buttonPaper = document.getElementById('button-paper');
 const buttonScissors = document.getElementById('button-scissors');
 
-/**
- * Clearing messages on the page.
- */
-function clearMessages() {
-  document.getElementById('messages').innerHTML = '';
-}
-
-/**
- * Adding a message to the page
- */
-function printMessage(msg) {
-  const div = document.createElement('div');
-  div.innerHTML = msg;
-  document.getElementById('messages').appendChild(div);
-}
 
 /**
  * Function returns the move name based on its number.
